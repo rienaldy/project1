@@ -1,0 +1,294 @@
+i{
+	font-style: italic;
+}
+
+b{
+	font-weight: bold;
+}
+
+u{
+	text-decoration: underline;
+}
+
+.container{
+	padding: 0 0%;
+	margin: 40px auto;
+	max-width: 1240px;
+	width: 100%;
+}
+
+.container2{
+	padding: 0 0%;
+	margin: 0.5% auto;
+	max-width: 1240px;
+	width: 100%;
+}
+
+.clearfix:after{
+	content:'';
+	clear: both;
+	display: table;
+}
+
+body {
+	line-height: 1.5;
+}
+
+p, br {
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+
+}
+
+h1 {
+	font-family: "Playfair Display", serif; 
+	font-size: 50px;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Playfair Display", serif; 
+	font-size: 32px;
+	text-align: center;
+	line-height: 150%;
+	font-style: normal;
+}
+
+h4 {
+	font-family: "Playfair Display", serif; 
+	font-size: 18px;
+	text-align: center;
+	color: red;
+	line-height: 150%;
+}
+h5 {
+	font-family: "Raleway", sans-serif; 
+	font-size: 14px;
+	font-weight: 300;
+}
+
+header{
+	overflow: hidden;
+	width: 100%;
+}
+
+header .cart{
+	float:right;
+	transform: translate(-50%,0);
+	padding: 0% 0 0% 0;
+}
+
+header .cart a:hover{
+	border-bottom: 5px solid red;
+}
+
+
+header .logo{
+	float:left;
+	padding: 0% 0% 0% 2.5%;
+}
+
+.hero-banner{ 
+	background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2)100%), url(images/banner-girl.png) no-repeat center center, url(images/flower-bkgd.jpg) repeat-x center top;	
+	background-size: contain, contain, contain;
+	background-position-y: 0px, 80px, 0px;
+	height: 400px;
+	position: relative;
+	text-align: center;	
+}
+
+.banner-text-container{
+	color: white;
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%); 
+	width: 100%;
+}
+
+p .buffer{
+	padding-top: 6000%;
+}
+
+.hand-crafted{
+	border-bottom: 1px solid rgba(0, 0, 0, .3);
+	border-opacity:0.4;
+}
+
+.hand-crafted-text{
+	text-align: center;
+	/*margin: 3% 0*/; /*used this to increase height of hand-crafted styles*/
+	padding-left: 20%; /*used this to make the p has multiple lines*/
+	padding-right: 20%; 
+}
+
+.most-loved{
+	margin: auto; 
+	width: 100%;
+}
+
+.most-loved-products {
+	display: inline-block;
+	overflow: : hidden;
+	text-align: center;
+	width: 24.6%;
+	line-height: 3; /*using this to space out the text better*/
+}
+
+.sign-up-banner{
+	width: 100%;
+	height: 240px;
+	background: url(images/wave-bkgd.jpg) no-repeat center bottom;
+	background-size: cover;
+
+	color: white;
+	position: relative;
+	text-align: center;	
+	/*border-bottom: 5px solid white;*/
+}
+
+.sign-up-text{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+	padding-left: 20%;
+	padding-right: 20%; 
+	line-height: 150%;
+}
+
+.sign-up-text p{
+	margin-bottom: 2%;
+}
+
+
+form{
+	border: 3px solid white;
+  	border-radius: 14px;
+  	font: 14px/1.4 "Raleway", sans-serif;
+  	overflow: hidden;
+  	width: 350px;
+  	margin: 0 auto;
+  	background-color: white;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 14px;
+  font: 14px/1.4 "Raleway", sans-serif;
+  margin: 0;
+}
+
+.subcribe{
+	background-color: red;
+	padding: 1px 1px 1px 1px;
+	border-color: salmon;
+	border: 1px;
+
+	background: #f0f0f2;
+	border-top: 1px solid #c6c7cc;
+	padding: 20px;
+}
+
+.subscribe-input{
+ 	background: white;
+  	border: 0;
+  	color: black;
+  	cursor: pointer;
+  	/*font-weight: bold;*/
+  	float: left;
+  	padding: 8px 16px;
+  	width: 54%;
+}
+
+.subscribe-submit{
+	background: red;
+	border: 0;
+  	color: white;
+	float: right;
+	padding: 10px 16px;
+	width: 35%
+}
+
+input:hover{
+	background-color: pink;
+
+}
+
+footer{
+	height: 220px;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+div .left-footer{
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+
+footer .left-footer{
+	font-family: "Playfair";
+	float:left;
+	margin: 0 3%;
+	width: 60%;
+	line-height: 150%;
+}
+
+/*u .email a:hover{
+	color: red;
+	text-decoration: underline;
+} THIS DOESN'T WORK YET*/
+
+.address{
+	color: grey
+}
+
+footer .social{
+	float:right;
+	width: 10%;
+	line-height: 150%;
+}
+
+.social {
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+}
+
+.social a{
+   color: white;
+   text-decoration: none;
+}
+
+.social a:hover {
+   color: red;
+   text-decoration: underline;
+}
+
+.social li{
+	list-style-type: none;
+	line-height: 200%; /*spacing out the links a bit more*/
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+}
+
+.most-loved img {
+	height: auto;
+	max-width: 100%;
+}
+
+div .social {
+	float: right;
+	margin: 4% 3% 0;
+}
+
+.left-footer p{
+	font-family: "Playfair";
+}
+
+
